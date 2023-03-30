@@ -1,9 +1,8 @@
 package com.xxx.springframework.beans.factory.support;
 
 import com.xxx.springframework.beans.factory.BeanFactory;
-import com.xxx.springframework.beans.factory.BeansException;
+import com.xxx.springframework.beans.BeansException;
 import com.xxx.springframework.beans.factory.config.BeanDefinition;
-import com.xxx.springframework.beans.factory.config.DefaultSingletonBeanRegistry;
 
 /**
  * @author Ether

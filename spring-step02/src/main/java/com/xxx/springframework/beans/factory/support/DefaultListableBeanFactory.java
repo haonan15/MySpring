@@ -1,6 +1,6 @@
 package com.xxx.springframework.beans.factory.support;
 
-import com.xxx.springframework.beans.factory.BeansException;
+import com.xxx.springframework.beans.BeansException;
 import com.xxx.springframework.beans.factory.config.BeanDefinition;
 
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.xxx.springframework.beans.factory;
+package com.xxx.springframework.beans;
 
 /**
  * @author Ether

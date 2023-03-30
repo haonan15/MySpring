@@ -1,4 +1,6 @@
-package com.xxx.springframework.beans.factory.config;
+package com.xxx.springframework.beans.factory.support;
+
+import com.xxx.springframework.beans.factory.config.SingletonBeanRegistry;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,9 +10,9 @@ import java.util.Map;
  * 单例接口的实现类
  */
 
-public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry{
+public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 
-    private Map<String,Object> singletonObjects = new HashMap<>();
+    private final Map<String,Object> singletonObjects = new HashMap<>();
 
     @Override
     public Object getSingleton(String beanName) {

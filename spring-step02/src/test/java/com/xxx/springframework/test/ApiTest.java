@@ -2,7 +2,6 @@ package com.xxx.springframework.test;
 
 
 import com.xxx.springframework.beans.factory.config.BeanDefinition;
-import com.xxx.springframework.beans.factory.config.DefaultSingletonBeanRegistry;
 import com.xxx.springframework.beans.factory.support.DefaultListableBeanFactory;
 import com.xxx.springframework.test.bean.UserService;
 import org.junit.Test;
